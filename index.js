@@ -4,14 +4,6 @@ const cors = require('cors');
 const port = process.env.port || 3000;
 const chefs = require('./chefs.json')
 
-
-// klsdjfklsdflksdfklkl
-// klsdjfklsdflksdfklkl
-// klsdjfklsdflksdfklkl
-// klsdjfklsdflksdfklkl
-
-
-
 app.use(cors());
 
 app.get('/', (req, res) => {
