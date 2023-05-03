@@ -1,50 +1,349 @@
 [
     {
         "id": 1,
-        "Chef Picture": "https://example.com/chef1.png",
-        "Chef Name": "Ming Tsai",
-        "Years of experience": 25,
-        "Numbers of recipes": 50,
-        "Likes": 1000
+        "ChefPicture": "https://i.ibb.co/QQFHXY2/MingTsai.jpg",
+        "ChefName": "Ming Tsai",
+        "YearsOfExperience": 25,
+        "NumbersOfRecipes": 50,
+        "Likes": 1000,
+        "nationality": "Chinese",
+        "specialty": "Fusion cuisine",
+        "experience": "Over 25 years of experience as a chef and television host",
+        "awards": [
+            "James Beard Award",
+            "Emmy Award"
+        ],
+        "recipes": [
+            {
+                "pictuer": "https://i.ibb.co/mtyJPxx/Kung-Pao-Chicken.jpg",
+                "recipeName": "Kung Pao Chicken",
+                "ingredients": [
+                    "01. 2 boneless chicken breasts, cut into small cubes",
+                    "02. 1/2 cup roasted peanuts",
+                    "03. 1 red bell pepper, chopped",
+                    "04. 1 small onion, chopped",
+                    "05. 1 tsp sugar",
+                    "06. 1/4 tsp red pepper flakes",
+                    "07. 2 tbsp vegetable oil"
+                ],
+                "method": "1. In a small bowl, whisk together the soy sauce, rice vinegar, hoisin sauce, cornstarch, sugar, and red pepper flakes. Set aside.\n2. Heat the vegetable oil in a wok or large skillet over high heat. Add the chicken and stir-fry until browned and cooked through, about 5 minutes.\n3. Add the bell peppers, onion, and garlic and stir-fry for another 2-3 minutes.\n4. Pour in the sauce and stir-fry for another minute or until the sauce has thickened.\n5. Serve over rice and top with roasted peanuts.",
+                "rating": 4.5
+            },
+            {
+                "pictuer": "https://i.ibb.co/SR2ZhVv/Hotan-Sour-Soup.jpg",
+                "recipeName": "Hot and Sour Soup",
+                "ingredients": [
+                    "01. 4 cups chicken broth",
+                    "02. 4 oz. shiitake mushrooms, sliced",
+                    "03. 1/2 cup bamboo shoots, sliced",
+                    "04. 1 tsp chili oil",
+                    "05. Salt and pepper to taste"
+                ],
+                "method": "1. In a large pot, bring the chicken broth to a boil.\n2. Add the mushrooms, bamboo shoots, rice vinegar, and soy sauce. Reduce heat and simmer for 5-10 minutes.\n3. In a small bowl, whisk together the cornstarch and 1/4 cup water. Slowly pour the mixture into the soup while stirring constantly.\n4. Add the tofu and green onions and simmer for another 2-3 minutes.\n5. Slowly pour the beaten egg into the soup while stirring constantly. Cook for another minute or until the egg is cooked through.\n6. Remove from heat and stir in the sesame oil and chili oil. Season with salt and pepper to taste.",
+                "rating": 4
+            },
+            {
+                "pictuer": "https://i.ibb.co/WFwVtJf/Szechuan-Beef.jpg",
+                "recipeName": "Szechuan Beef",
+                "ingredients": [
+                    "01. 1 lb. flank steak, sliced against the grain",
+                    "02. 2 tbsp cornstarch",
+                    "03. 2 tbsp vegetable oil",
+                    "04. 1 tsp sugar",
+                    "05. 1/4 tsp red pepper flakes"
+                ],
+                "method": "1. In a large bowl, toss the sliced beef with the cornstarch until fully coated.\n2. Heat the vegetable oil in a wok or large skillet over.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "id": 2,
-        "Chef Picture": "https://example.com/chef2.png",
-        "Chef Name": "Martin Yan",
-        "Years of experience": 30,
-        "Numbers of recipes": 75,
-        "Likes": 1500
+        "ChefPicture": "https://i.ibb.co/JzrYp4x/Martin-Yan.jpg",
+        "ChefName": "Martin Yan",
+        "YearsOfExperience": 30,
+        "NumbersOfRecipes": 75,
+        "Likes": 1500,
+        "nationality": "Chinese",
+        "specialty": "Cantonese cuisine",
+        "experience": "Over 40 years of experience as a chef and television host",
+        "awards": [
+            "James Beard Award",
+            "Emmy Award"
+        ],
+        "recipes": [
+            {
+                "pictuer": "https://i.ibb.co/mtyJPxx/Kung-Pao-Chicken.jpg",
+                "recipeName": "Kung Pao Chicken",
+                "ingredients": [
+                    "01. 2 boneless chicken breasts, cut into small cubes",
+                    "02. 1/2 cup roasted peanuts",
+                    "03. 1 red bell pepper, chopped",
+                    "04. 1 small onion, chopped",
+                    "05. 1 tsp sugar",
+                    "06. 1/4 tsp red pepper flakes",
+                    "07. 2 tbsp vegetable oil"
+                ],
+                "method": "1. In a small bowl, whisk together the soy sauce, rice vinegar, hoisin sauce, cornstarch, sugar, and red pepper flakes. Set aside.\n2. Heat the vegetable oil in a wok or large skillet over high heat. Add the chicken and stir-fry until browned and cooked through, about 5 minutes.\n3. Add the bell peppers, onion, and garlic and stir-fry for another 2-3 minutes.\n4. Pour in the sauce and stir-fry for another minute or until the sauce has thickened.\n5. Serve over rice and top with roasted peanuts.",
+                "rating": 4.5
+            },
+            {
+                "pictuer": "https://i.ibb.co/SR2ZhVv/Hotan-Sour-Soup.jpg",
+                "recipeName": "Hot and Sour Soup",
+                "ingredients": [
+                    "01. 4 cups chicken broth",
+                    "02. 4 oz. shiitake mushrooms, sliced",
+                    "03. 1/2 cup bamboo shoots, sliced",
+                    "04. 1 tsp chili oil",
+                    "05. Salt and pepper to taste"
+                ],
+                "method": "1. In a large pot, bring the chicken broth to a boil.\n2. Add the mushrooms, bamboo shoots, rice vinegar, and soy sauce. Reduce heat and simmer for 5-10 minutes.\n3. In a small bowl, whisk together the cornstarch and 1/4 cup water. Slowly pour the mixture into the soup while stirring constantly.\n4. Add the tofu and green onions and simmer for another 2-3 minutes.\n5. Slowly pour the beaten egg into the soup while stirring constantly. Cook for another minute or until the egg is cooked through.\n6. Remove from heat and stir in the sesame oil and chili oil. Season with salt and pepper to taste.",
+                "rating": 4
+            },
+            {
+                "pictuer": "https://i.ibb.co/WFwVtJf/Szechuan-Beef.jpg",
+                "recipeName": "Szechuan Beef",
+                "ingredients": [
+                    "01. 1 lb. flank steak, sliced against the grain",
+                    "02. 2 tbsp cornstarch",
+                    "03. 2 tbsp vegetable oil",
+                    "04. 1 tsp sugar",
+                    "05. 1/4 tsp red pepper flakes"
+                ],
+                "method": "1. In a large bowl, toss the sliced beef with the cornstarch until fully coated.\n2. Heat the vegetable oil in a wok or large skillet over.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "id": 3,
-        "Chef Picture": "https://example.com/chef3.png",
-        "Chef Name": "Ching He Huang",
-        "Years of experience": 15,
-        "Numbers of recipes": 30,
-        "Likes": 500
+        "ChefPicture": "https://i.ibb.co/r0qyWkX/Ching-He-Huang.jpg",
+        "ChefName": "Ching He Huang",
+        "YearsOfExperience": 15,
+        "NumbersOfRecipes": 30,
+        "Likes": 500,
+        "nationality": "Chinese",
+        "specialty": "Chinese cuisine",
+        "experience": "Over 20 years of experience as a chef and television host",
+        "awards": [
+            "Emmy Award"
+        ],
+        "recipes": [
+            {
+                "pictuer": "https://i.ibb.co/mtyJPxx/Kung-Pao-Chicken.jpg",
+                "recipeName": "Kung Pao Chicken",
+                "ingredients": [
+                    "01. 2 boneless chicken breasts, cut into small cubes",
+                    "02. 1/2 cup roasted peanuts",
+                    "03. 1 red bell pepper, chopped",
+                    "04. 1 small onion, chopped",
+                    "05. 1 tsp sugar",
+                    "06. 1/4 tsp red pepper flakes",
+                    "07. 2 tbsp vegetable oil"
+                ],
+                "method": "1. In a small bowl, whisk together the soy sauce, rice vinegar, hoisin sauce, cornstarch, sugar, and red pepper flakes. Set aside.\n2. Heat the vegetable oil in a wok or large skillet over high heat. Add the chicken and stir-fry until browned and cooked through, about 5 minutes.\n3. Add the bell peppers, onion, and garlic and stir-fry for another 2-3 minutes.\n4. Pour in the sauce and stir-fry for another minute or until the sauce has thickened.\n5. Serve over rice and top with roasted peanuts.",
+                "rating": 4.5
+            },
+            {
+                "pictuer": "https://i.ibb.co/SR2ZhVv/Hotan-Sour-Soup.jpg",
+                "recipeName": "Hot and Sour Soup",
+                "ingredients": [
+                    "01. 4 cups chicken broth",
+                    "02. 4 oz. shiitake mushrooms, sliced",
+                    "03. 1/2 cup bamboo shoots, sliced",
+                    "04. 1 tsp chili oil",
+                    "05. Salt and pepper to taste"
+                ],
+                "method": "1. In a large pot, bring the chicken broth to a boil.\n2. Add the mushrooms, bamboo shoots, rice vinegar, and soy sauce. Reduce heat and simmer for 5-10 minutes.\n3. In a small bowl, whisk together the cornstarch and 1/4 cup water. Slowly pour the mixture into the soup while stirring constantly.\n4. Add the tofu and green onions and simmer for another 2-3 minutes.\n5. Slowly pour the beaten egg into the soup while stirring constantly. Cook for another minute or until the egg is cooked through.\n6. Remove from heat and stir in the sesame oil and chili oil. Season with salt and pepper to taste.",
+                "rating": 4
+            },
+            {
+                "pictuer": "https://i.ibb.co/WFwVtJf/Szechuan-Beef.jpg",
+                "recipeName": "Szechuan Beef",
+                "ingredients": [
+                    "01. 1 lb. flank steak, sliced against the grain",
+                    "02. 2 tbsp cornstarch",
+                    "03. 2 tbsp vegetable oil",
+                    "04. 1 tsp sugar",
+                    "05. 1/4 tsp red pepper flakes"
+                ],
+                "method": "1. In a large bowl, toss the sliced beef with the cornstarch until fully coated.\n2. Heat the vegetable oil in a wok or large skillet over.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "id": 4,
-        "Chef Picture": "https://example.com/chef4.png",
-        "Chef Name": "Ken Hom",
-        "Years of experience": 40,
-        "Numbers of recipes": 100,
-        "Likes": 2000
+        "ChefPicture": "https://i.ibb.co/pZLGQJP/KenHom.jpg",
+        "ChefName": "Ken Hom",
+        "YearsOfExperience": 40,
+        "NumbersOfRecipes": 100,
+        "Likes": 2000,
+        "nationality": "Chinese",
+        "specialty": "Chinese cuisine",
+        "experience": "Over 40 years of experience as a chef and author",
+        "awards": [
+            "Order of the British Empire",
+            "James Beard Award"
+        ],
+        "recipes": [
+            {
+                "pictuer": "https://i.ibb.co/mtyJPxx/Kung-Pao-Chicken.jpg",
+                "recipeName": "Kung Pao Chicken",
+                "ingredients": [
+                    "01. 2 boneless chicken breasts, cut into small cubes",
+                    "02. 1/2 cup roasted peanuts",
+                    "03. 1 red bell pepper, chopped",
+                    "04. 1 small onion, chopped",
+                    "05. 1 tsp sugar",
+                    "06. 1/4 tsp red pepper flakes",
+                    "07. 2 tbsp vegetable oil"
+                ],
+                "method": "1. In a small bowl, whisk together the soy sauce, rice vinegar, hoisin sauce, cornstarch, sugar, and red pepper flakes. Set aside.\n2. Heat the vegetable oil in a wok or large skillet over high heat. Add the chicken and stir-fry until browned and cooked through, about 5 minutes.\n3. Add the bell peppers, onion, and garlic and stir-fry for another 2-3 minutes.\n4. Pour in the sauce and stir-fry for another minute or until the sauce has thickened.\n5. Serve over rice and top with roasted peanuts.",
+                "rating": 4.5
+            },
+            {
+                "pictuer": "https://i.ibb.co/SR2ZhVv/Hotan-Sour-Soup.jpg",
+                "recipeName": "Hot and Sour Soup",
+                "ingredients": [
+                    "01. 4 cups chicken broth",
+                    "02. 4 oz. shiitake mushrooms, sliced",
+                    "03. 1/2 cup bamboo shoots, sliced",
+                    "04. 1 tsp chili oil",
+                    "05. Salt and pepper to taste"
+                ],
+                "method": "1. In a large pot, bring the chicken broth to a boil.\n2. Add the mushrooms, bamboo shoots, rice vinegar, and soy sauce. Reduce heat and simmer for 5-10 minutes.\n3. In a small bowl, whisk together the cornstarch and 1/4 cup water. Slowly pour the mixture into the soup while stirring constantly.\n4. Add the tofu and green onions and simmer for another 2-3 minutes.\n5. Slowly pour the beaten egg into the soup while stirring constantly. Cook for another minute or until the egg is cooked through.\n6. Remove from heat and stir in the sesame oil and chili oil. Season with salt and pepper to taste.",
+                "rating": 4
+            },
+            {
+                "pictuer": "https://i.ibb.co/WFwVtJf/Szechuan-Beef.jpg",
+                "recipeName": "Szechuan Beef",
+                "ingredients": [
+                    "01. 1 lb. flank steak, sliced against the grain",
+                    "02. 2 tbsp cornstarch",
+                    "03. 2 tbsp vegetable oil",
+                    "04. 1 tsp sugar",
+                    "05. 1/4 tsp red pepper flakes"
+                ],
+                "method": "1. In a large bowl, toss the sliced beef with the cornstarch until fully coated.\n2. Heat the vegetable oil in a wok or large skillet over.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "id": 5,
-        "Chef Picture": "https://example.com/chef5.png",
-        "Chef Name": "Grace Young",
-        "Years of experience": 20,
+        "ChefPicture": "https://i.ibb.co/s1LHXLt/chan-chi-fai.jpg",
+        "ChefName": "Grace Young",
+        "YearsOfExperience": 20,
         "Numbers of recipes": 40,
-        "Likes": 800
+        "Likes": 800,
+        "nationality": "Chinese",
+        "specialty": "Fusion cuisine",
+        "experience": "Over 30 years of experience as a chef and restaurateur",
+        "awards": [
+            "James Beard Award",
+            "Canadian Culinary Champion"
+        ],
+        "recipes": [
+            {
+                "pictuer": "https://i.ibb.co/mtyJPxx/Kung-Pao-Chicken.jpg",
+                "recipeName": "Kung Pao Chicken",
+                "ingredients": [
+                    "01. 2 boneless chicken breasts, cut into small cubes",
+                    "02. 1/2 cup roasted peanuts",
+                    "03. 1 red bell pepper, chopped",
+                    "04. 1 small onion, chopped",
+                    "05. 1 tsp sugar",
+                    "06. 1/4 tsp red pepper flakes",
+                    "07. 2 tbsp vegetable oil"
+                ],
+                "method": "1. In a small bowl, whisk together the soy sauce, rice vinegar, hoisin sauce, cornstarch, sugar, and red pepper flakes. Set aside.\n2. Heat the vegetable oil in a wok or large skillet over high heat. Add the chicken and stir-fry until browned and cooked through, about 5 minutes.\n3. Add the bell peppers, onion, and garlic and stir-fry for another 2-3 minutes.\n4. Pour in the sauce and stir-fry for another minute or until the sauce has thickened.\n5. Serve over rice and top with roasted peanuts.",
+                "rating": 4.5
+            },
+            {
+                "pictuer": "https://i.ibb.co/SR2ZhVv/Hotan-Sour-Soup.jpg",
+                "recipeName": "Hot and Sour Soup",
+                "ingredients": [
+                    "01. 4 cups chicken broth",
+                    "02. 4 oz. shiitake mushrooms, sliced",
+                    "03. 1/2 cup bamboo shoots, sliced",
+                    "04. 1 tsp chili oil",
+                    "05. Salt and pepper to taste"
+                ],
+                "method": "1. In a large pot, bring the chicken broth to a boil.\n2. Add the mushrooms, bamboo shoots, rice vinegar, and soy sauce. Reduce heat and simmer for 5-10 minutes.\n3. In a small bowl, whisk together the cornstarch and 1/4 cup water. Slowly pour the mixture into the soup while stirring constantly.\n4. Add the tofu and green onions and simmer for another 2-3 minutes.\n5. Slowly pour the beaten egg into the soup while stirring constantly. Cook for another minute or until the egg is cooked through.\n6. Remove from heat and stir in the sesame oil and chili oil. Season with salt and pepper to taste.",
+                "rating": 4
+            },
+            {
+                "pictuer": "https://i.ibb.co/WFwVtJf/Szechuan-Beef.jpg",
+                "recipeName": "Szechuan Beef",
+                "ingredients": [
+                    "01. 1 lb. flank steak, sliced against the grain",
+                    "02. 2 tbsp cornstarch",
+                    "03. 2 tbsp vegetable oil",
+                    "04. 1 tsp sugar",
+                    "05. 1/4 tsp red pepper flakes"
+                ],
+                "method": "1. In a large bowl, toss the sliced beef with the cornstarch until fully coated.\n2. Heat the vegetable oil in a wok or large skillet over.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "id": 6,
-        "Chef Picture": "https://example.com/chef6.png",
-        "Chef Name": "Martin Yan",
-        "Years of experience": 30,
-        "Numbers of recipes": 75,
-        "Likes": 1500
+        "ChefPicture": "https://i.ibb.co/6tn8TX8/Martin.webp",
+        "ChefName": "Martin hang",
+        "YearsOfExperience": 35,
+        "NumbersOfRecipes": 70,
+        "Likes": 1000,
+        "nationality": "Chinese",
+        "specialty": "Fusion cuisine",
+        "experience": "Over 25 years of experience as a chef and television host",
+        "awards": [
+            "James Beard Award",
+            "Emmy Award"
+        ],
+        "recipes": [
+            {
+                "pictuer": "https://i.ibb.co/mtyJPxx/Kung-Pao-Chicken.jpg",
+                "recipeName": "Kung Pao Chicken",
+                "ingredients": [
+                    "01. 2 boneless chicken breasts, cut into small cubes",
+                    "02. 1/2 cup roasted peanuts",
+                    "03. 1 red bell pepper, chopped",
+                    "04. 1 small onion, chopped",
+                    "05. 1 tsp sugar",
+                    "06. 1/4 tsp red pepper flakes",
+                    "07. 2 tbsp vegetable oil"
+                ],
+                "method": "1. In a small bowl, whisk together the soy sauce, rice vinegar, hoisin sauce, cornstarch, sugar, and red pepper flakes. Set aside.\n2. Heat the vegetable oil in a wok or large skillet over high heat. Add the chicken and stir-fry until browned and cooked through, about 5 minutes.\n3. Add the bell peppers, onion, and garlic and stir-fry for another 2-3 minutes.\n4. Pour in the sauce and stir-fry for another minute or until the sauce has thickened.\n5. Serve over rice and top with roasted peanuts.",
+                "rating": 4.5
+            },
+            {
+                "pictuer": "https://i.ibb.co/SR2ZhVv/Hotan-Sour-Soup.jpg",
+                "recipeName": "Hot and Sour Soup",
+                "ingredients": [
+                    "01. 4 cups chicken broth",
+                    "02. 4 oz. shiitake mushrooms, sliced",
+                    "03. 1/2 cup bamboo shoots, sliced",
+                    "04. 1 tsp chili oil",
+                    "05. Salt and pepper to taste"
+                ],
+                "method": "1. In a large pot, bring the chicken broth to a boil.\n2. Add the mushrooms, bamboo shoots, rice vinegar, and soy sauce. Reduce heat and simmer for 5-10 minutes.\n3. In a small bowl, whisk together the cornstarch and 1/4 cup water. Slowly pour the mixture into the soup while stirring constantly.\n4. Add the tofu and green onions and simmer for another 2-3 minutes.\n5. Slowly pour the beaten egg into the soup while stirring constantly. Cook for another minute or until the egg is cooked through.\n6. Remove from heat and stir in the sesame oil and chili oil. Season with salt and pepper to taste.",
+                "rating": 4
+            },
+            {
+                "pictuer": "https://i.ibb.co/WFwVtJf/Szechuan-Beef.jpg",
+                "recipeName": "Szechuan Beef",
+                "ingredients": [
+                    "01. 1 lb. flank steak, sliced against the grain",
+                    "02. 2 tbsp cornstarch",
+                    "03. 2 tbsp vegetable oil",
+                    "04. 1 tsp sugar",
+                    "05. 1/4 tsp red pepper flakes"
+                ],
+                "method": "1. In a large bowl, toss the sliced beef with the cornstarch until fully coated.\n2. Heat the vegetable oil in a wok or large skillet over.",
+                "rating": 4.5
+            }
+        ]
     }
 ]
